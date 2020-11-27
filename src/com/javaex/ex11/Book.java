@@ -44,6 +44,23 @@ public class Book {
     	}
     	System.out.println(bookNo+" 책 제목:"+title+", 작가:"+author+", 대여 유무:"+state);
     }
-    
+    public int getBookNo() {
+		return bookNo;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setBookNo(int bookNo) {
+		this.bookNo = bookNo;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
     
 }
